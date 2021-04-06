@@ -17,7 +17,6 @@ you.
   [FAQs](https://github.com/day8/re-frame/blob/master/docs/FAQs/README.md)) ->
   [Reagent](https://github.com/reagent-project/reagent) ->
   [React](https://github.com/facebook/react)
-  - UI components: [re-com](https://github.com/day8/re-com)
 * Build tools
   - CLJS compilation, dependency management, REPL, & hot reload: [`shadow-cljs`](https://github.com/thheller/shadow-cljs)
 * Development tools
@@ -32,8 +31,6 @@ you.
 [ClojureScript REPL](#connecting-to-the-browser-repl-from-a-terminal)
 * [`resources/public/`](resources/public/): SPA root directory;
 [dev](#running-the-app) / [prod](#production) profile depends on the most recent build
-  - [`vendor/`](resources/public/vendor/): UI component CSS, fonts, and images
-  ([re-com](https://github.com/day8/re-com))
   - [`index.html`](resources/public/index.html): SPA home page
     - Dynamic SPA content rendered in the following `div`:
         ```html
