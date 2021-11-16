@@ -1,0 +1,64 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉todo-app.core꞉>  ; Use `alt+enter` to evaluate
+#'todo-app.core/foo
+clj꞉todo-app.core꞉> 
+#'todo-app.core/foo
+clj꞉todo-app.core꞉> 
+#'todo-app.core/foo
+clj꞉todo-app.core꞉> 
+; Syntax error compiling at (src/todo_app/core.clj:1:1708).
+; Unable to resolve symbol: x in this context
+clj꞉todo-app.core꞉> 
+#object[clojure.core$println 0x3a920b9d "clojure.core$println@3a920b9d"]
+clj꞉todo-app.core꞉> 
+; Syntax error compiling at (src/todo_app/core.clj:1:1708).
+; Unable to resolve symbol: World! in this context
+clj꞉todo-app.core꞉> 
+"Hello, World!"
+clj꞉todo-app.core꞉> 
+; Syntax error reading source at (REPL:6:21).
+; Unmatched delimiter: )
+clj꞉todo-app.core꞉> 
+; Syntax error compiling at (src/todo_app/core.clj:1:1708).
+; Unable to resolve symbol: data in this context
+clj꞉todo-app.core꞉> 
+; Syntax error reading source at (REPL:5:1).
+; EOF while reading, starting at line 5
+clj꞉todo-app.core꞉> 
+; Execution error (ClassCastException) at todo-app.core/eval2258 (form-init7823337888044480428.clj:5).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+; Syntax error reading source at (REPL:5:21).
+; Unmatched delimiter: )
+clj꞉todo-app.core꞉> 
+; Syntax error reading source at (REPL:6:1).
+; EOF while reading, starting at line 6
+clj꞉todo-app.core꞉> 
+; Syntax error reading source at (REPL:6:22).
+; Unmatched delimiter: )
+clj꞉todo-app.core꞉> 
+; Syntax error reading source at (REPL:6:1).
+; EOF while reading, starting at line 6
+clj꞉todo-app.core꞉> 
+; Syntax error compiling at (src/todo_app/core.clj:1:1708).
+; Unable to resolve symbol: main in this context
+clj꞉todo-app.core꞉> 
+#object[todo_app.core$foo 0x7e858dc4 "todo_app.core$foo@7e858dc4"]
+clj꞉todo-app.core꞉> 
+#object[todo_app.core$foo 0x7e858dc4 "todo_app.core$foo@7e858dc4"]
+clj꞉todo-app.core꞉> 
+; nREPL Connection was closed
